@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: whitesmoke;
+}
+
+.container{
+    margin-top: 50px;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    padding: 8px;
+    border-bottom: 2px solid dodgerblue;
+    margin: 10px;
+}
+
+input::placeholder{
+    color: black;
+}
+
+.box{
+    display: flex;
+    margin-bottom: 30px;
+
+}
+
+.cont{
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 30px 100px;
+    border: 5px solid rgb(131, 34, 176) ;
+    border-radius: 10px;
+
+
+}
+
+.btn{
+    border: none;
+    outline: none;
+    background-color: rgb(10, 231, 157);
+    padding: 15px 30px;
+    cursor: pointer;
+    transition: 0.6s;
+    border: 2px solid rgb(9, 240, 155);
+    color: white;
+}
+
+.btn:hover{
+    background-color: transparent;
+    transition: 0.8;
+}
+
+
+.para{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 15px 0;
+}
+
+.edit,.del{
+    padding: 5px 10px; 
+    border: none;
+    outline: none;   
+    margin: 5px;
+    cursor: pointer;
+}
+
+.edit{
+    background-color: green;
+    color: white;
+}
+
+.del{
+    background-color: red;
+    color: white;
+}
